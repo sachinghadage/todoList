@@ -1,0 +1,80 @@
+.content{
+    
+    position: relative;
+    display: flex;
+}
+
+
+/* Styles for the header */
+.head {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .head h1 {
+    font-size: 32px;
+  }
+  
+  /* Styles for the input and button */
+  .add {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  #text {
+    padding: 8px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .addbtn {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .addbtn:hover {
+    background-color: #45a049;
+  }
+  
+  /* Styles for the to-do list */
+  /* Styles for the to-do list */
+.body {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center; /* align items horizontally */
+    align-items: center; /* align items vertically */
+  }
+  
+  #todoList {
+    list-style-type: none;
+    padding: 0;
+    width: 50%; /* or any desired width */
+  }
+  
+  li {
+    margin-top: 10px;
+    position: relative;
+    text-align: center; /* adjust text alignment within the list item */
+  }
+  
+  
+  button {
+    margin-left: 10px;
+    padding: 6px 12px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #e53935;
+  }
+  
